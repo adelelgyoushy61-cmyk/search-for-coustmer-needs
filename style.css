@@ -1,0 +1,21 @@
+    *{
+        margin:0 ;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        body {
+            font-family: 'Cairo', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .step-card {
+            transition: all 0.4s ease;
+        }
+        .step-card:hover {
+            transform: scale(1.01);
+        }
+        .gradient-1 { background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-right: 8px solid #2563eb; }
+        .gradient-2 { background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border-right: 8px solid #7c3aed; }
+        .gradient-3 { background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%); border-right: 8px solid #10b981; }
+        .gradient-4 { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-right: 8px solid #f59e0b; }
+        .gradient-5 { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); border-right: 8px solid #ec4899; }
+    
